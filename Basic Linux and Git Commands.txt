@@ -1,0 +1,68 @@
+Basic Linux Commands
+
+-------------------------------------------------------------------------------------
+
+sudo: “substitute user do” or “super user do”
+	sudo “commands”
+
+nano: let’s you create, save, and edit files in any format
+
+pwd: Print working directory
+
+ls: list contents of current directory
+
+clear: clears terminal window
+
+cd: change directory
+	This is how you navigate through folders
+	"cd Desktop" takes you to Desktop folder
+	Now try ls?
+	"cd .." takes you back 
+	"cd /" takes you to the root directory
+cp: copy files
+	In same directory
+		cp “file name” “new copy name”
+	In different directory
+		cp “file name” “path of new directory”
+rm: remove or delete files
+	rm “filename”
+mkdir: makes a new folder/directory
+	mkdir “folder name”
+rmdir: delete an empty folder
+	rmdir “folder name”
+
+Let’s make a directory with a file in it then try to delete the directory with rmdir
+
+For directories with files in them you must use rm –r “file name”
+
+man: gives you help with a command
+	man “command”
+apt: Advanced Package Tool
+	Allows users to install, upgrade, and clean packages
+	sudo apt-get update
+
+--------------------------------------------------------------------------------------
+
+Basic Git Commands
+
+--------------------------------------------------------------------------------------
+
+cd Desktop
+
+mkdir Git-Demo
+
+cd Git-Demo
+
+git init 
+	initializes this directory as a Git repository
+
+sudo nano test.txt
+	Makes a new text file called test inside Git-Demo
+
+Type whatever you want then ctrl-x and hit y then enter
+
+git add
+
+git commit -m "This is a test"
+
+git push
